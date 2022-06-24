@@ -1,0 +1,5 @@
+<div class="d-flex pb-5 flex-wrap">
+  <ng-container *ngFor="let product of products$ | async">
+    <app-product data-test="product" [product]="product"></app-product>
+  </ng-container>
+</div>

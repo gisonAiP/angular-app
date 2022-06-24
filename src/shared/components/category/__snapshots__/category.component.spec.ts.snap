@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryComponent should validate snapshot 1`] = `
+<app-category
+  height={[Function Number]}
+  imageURL={[Function String]}
+  title={[Function String]}
+>
+  <div
+    class="text-center category"
+  >
+    <img
+      alt="search"
+      data-test="category-image"
+      height="100"
+      src="dummy-url"
+    />
+    <p
+      class="small py-2"
+      data-test="category-title"
+    >
+      Test title
+    </p>
+  </div>
+</app-category>
+`;

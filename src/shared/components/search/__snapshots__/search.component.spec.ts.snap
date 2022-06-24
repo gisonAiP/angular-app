@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchComponent should validate snapshot 1`] = `
+<app-search>
+  <div
+    class="d-none d-md-flex py-5 align-items-center"
+  >
+    <img
+      alt="search"
+      class="px-1"
+      height="20"
+      src="../../../assets/svg/search.svg"
+    />
+    <input
+      class="input-search autocomplete m-2"
+      placeholder="Search..."
+    />
+    <input
+      class="input-search country mx-2"
+      placeholder="Poland"
+    />
+    <button
+      class="btn-search mx-2"
+      data-test="search-button"
+    >
+      Search
+    </button>
+  </div>
+</app-search>
+`;

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderComponent should validate snapshot 1`] = `
+<app-header>
+  <header
+    data-test="header"
+  >
+    <div
+      class="header-desktop d-none d-md-flex"
+    >
+      <div
+        class="header-logo"
+      >
+        <img
+          alt="logo"
+          height="33"
+          src="./assets/svg/tripico.svg"
+        />
+      </div>
+      <input
+        class="header-search"
+        placeholder="Where are you going?"
+      />
+      <div
+        class="header-icons-container"
+      >
+        <img
+          alt="home"
+          height="20"
+          src="./assets/svg/home.svg"
+        />
+        <img
+          alt="briefcase"
+          height="20"
+          src="./assets/svg/briefcase.svg"
+        />
+        <img
+          alt="compass"
+          height="20"
+          src="./assets/svg/compass.svg"
+        />
+        <img
+          alt="repeat"
+          height="20"
+          src="./assets/svg/repeat.svg"
+        />
+        <img
+          alt="avatar"
+          height="20"
+          src="./assets/svg/avatar.svg"
+        />
+      </div>
+    </div>
+    <div
+      class="header-mobile d-flex d-md-none justify-content-between py-3 px-2"
+    >
+      <div>
+        <p
+          class="title"
+        >
+          Marketplace
+        </p>
+      </div>
+      <div>
+        <img
+          alt="search"
+          class="px-1"
+          height="30"
+          src="./assets/svg/search2.svg"
+        />
+        <img
+          alt="user"
+          class="px-1"
+          height="30"
+          src="./assets/svg/user.svg"
+        />
+        <img
+          alt="bookmark"
+          class="px-1"
+          height="30"
+          src="./assets/svg/bookmark.svg"
+        />
+      </div>
+    </div>
+  </header>
+</app-header>
+`;

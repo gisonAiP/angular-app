@@ -1,0 +1,52 @@
+/* Card */
+.img-card {
+  width: 160px;
+  margin: 0 10px 10px 0;
+  position: relative;
+  box-shadow: 0 4px 6px #E5E5E5;
+  border-radius: 15px
+}
+
+.img-card .card-image {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  height: 180px;
+}
+
+.img-card .card-text {
+  padding: 10px;
+}
+
+.img-card .card-text .title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.img-card .card-text .currency {
+  font-weight: 700;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.img-card .card-text .city {
+  color: #ADB4BB;
+  font-size: 12px;
+}
+
+.img-card .card-icon {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+}
+
+.category {
+  padding: 0 9px;
+}
+
+.categories {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-right: 10px;
+}

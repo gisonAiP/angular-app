@@ -1,0 +1,13 @@
+<div class="img-card mr-md-3 mb-md-3">
+  <div class="card-content">
+    <div class="card-image">
+      <img src="../../../assets/svg/bookmark2.svg" class="card-icon"/>
+      <img [src]="product?.owner?.profilePicUrl" width="160"/>
+    </div>
+    <div class="card-text">
+      <p data-test="product-title" class="mb-1 title">{{product?.title}}</p>
+      <span data-test="product-price" class="currency mr-2">${{product?.price}}</span>
+      <span data-test="product-location" class="city">{{product?.location}}</span>
+    </div>
+  </div>
+</div>

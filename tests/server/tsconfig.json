@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "target": "es2015",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "noEmit": true,
+    "types" : ["node", "lodash", "express"],
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "importHelpers": true
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}

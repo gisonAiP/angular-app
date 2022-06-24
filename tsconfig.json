@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "lib": [
+      "esnext",
+      "es2015",
+      "dom"
+    ]
+  },
+  "exclude": ["tests/**/*"]
+}

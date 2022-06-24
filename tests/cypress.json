@@ -1,0 +1,16 @@
+{
+  "baseUrl": "http://localhost:4200",
+  "reporter": "junit",
+  "testFiles": "**/*.spec.ts",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/tests-[hash].xml"
+  },
+  "env": {
+   "mockServerUrl": "http://localhost:3005"
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "screenshotOnRunFailure": true
+}

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductComponent should validate snapshot 1`] = `
+<app-product
+  product={[Function Object]}
+>
+  <div
+    class="img-card mr-md-3 mb-md-3"
+  >
+    <div
+      class="card-content"
+    >
+      <div
+        class="card-image"
+      >
+        <img
+          class="card-icon"
+          src="../../../assets/svg/bookmark2.svg"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7b/City_Hall_of_Mountain_View_-_panoramio_-_Aleh_Haiko.jpg"
+          width="160"
+        />
+      </div>
+      <div
+        class="card-text"
+      >
+        <p
+          class="mb-1 title"
+          data-test="product-title"
+        >
+          Title test
+        </p>
+        <span
+          class="currency mr-2"
+          data-test="product-price"
+        >
+          $123
+        </span>
+        <span
+          class="city"
+          data-test="product-location"
+        >
+          Auckland
+        </span>
+      </div>
+    </div>
+  </div>
+</app-product>
+`;

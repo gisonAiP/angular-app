@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="2" errors="0" time="5.468">
+  <testsuite name="ProductsComponent" errors="0" failures="2" skipped="0" timestamp="2022-06-24T13:16:33" time="4.07" tests="2">
+    <testcase classname="ProductsComponent should validate snapshot" name="ProductsComponent should validate snapshot" time="0.475">
+      <failure>Error: Can&apos;t resolve all parameters for ProductsComponent: (?).
+    at syntaxError (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\parse_util.ts:184:17)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getDependenciesMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:1011:27)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getTypeMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:890:20)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.getNonNormalizedDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:388:18)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.loadDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:239:41)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:138:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:136:65
+    at Array.forEach (&lt;anonymous&gt;)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._loadModules (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:133:71)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._compileModuleAndAllComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:118:32)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:70:33)
+    at CompilerImpl.Object.&lt;anonymous&gt;.CompilerImpl.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\src\compiler_factory.ts:69:27)
+    at TestingCompilerImpl.Object.&lt;anonymous&gt;.TestingCompilerImpl.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:59:27)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine.compileComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:405:27)
+    at Function.Object.&lt;anonymous&gt;.TestBedViewEngine.compileComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:170:25)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\projects\spectator\src\lib\spectator-routing\create-factory.ts:47:15
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at AsyncTestZoneSpec.Object.&lt;anonymous&gt;.AsyncTestZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4797:47)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3827:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.runGuarded (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:180:51)
+    at runInTestZone (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4943:33)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4877:21
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <failure>Error: Can&apos;t resolve all parameters for ProductsComponent: (?).
+    at syntaxError (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\parse_util.ts:184:17)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getDependenciesMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:1011:27)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getTypeMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:890:20)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.getNonNormalizedDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:388:18)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.loadDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:239:41)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:138:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:136:65
+    at Array.forEach (&lt;anonymous&gt;)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._loadModules (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:133:71)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._compileModuleAndAllComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:118:32)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:66:38)
+    at CompilerImpl.Object.&lt;anonymous&gt;.CompilerImpl.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\src\compiler_factory.ts:61:35)
+    at TestingCompilerImpl.Object.&lt;anonymous&gt;.TestingCompilerImpl.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:54:27)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine._initIfNeeded (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:424:28)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine.inject (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:510:10)
+    at Function.Object.&lt;anonymous&gt;.TestBedViewEngine.inject (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:233:36)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\projects\spectator\src\lib\spectator-routing\create-factory.ts:71:52
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\src\main\components\products\products.component.spec.ts:42:17
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at Object.asyncJestLifecycle (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:58:37)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <failure>TypeError: Cannot read property &apos;fixture&apos; of undefined
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\src\main\components\products\products.component.spec.ts:47:22
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at Object.asyncJestTest (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+    </testcase>
+    <testcase classname="ProductsComponent should display correct length of products" name="ProductsComponent should display correct length of products" time="0.014">
+      <failure>Error: Can&apos;t resolve all parameters for ProductsComponent: (?).
+    at syntaxError (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\parse_util.ts:184:17)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getDependenciesMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:1011:27)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getTypeMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:890:20)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.getNonNormalizedDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:388:18)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.loadDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:239:41)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:138:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:136:65
+    at Array.forEach (&lt;anonymous&gt;)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._loadModules (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:133:71)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._compileModuleAndAllComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:118:32)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:70:33)
+    at CompilerImpl.Object.&lt;anonymous&gt;.CompilerImpl.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\src\compiler_factory.ts:69:27)
+    at TestingCompilerImpl.Object.&lt;anonymous&gt;.TestingCompilerImpl.compileModuleAndAllComponentsAsync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:59:27)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine.compileComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:405:27)
+    at Function.Object.&lt;anonymous&gt;.TestBedViewEngine.compileComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:170:25)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\projects\spectator\src\lib\spectator-routing\create-factory.ts:47:15
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at AsyncTestZoneSpec.Object.&lt;anonymous&gt;.AsyncTestZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4797:47)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3827:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.runGuarded (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:180:51)
+    at runInTestZone (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4943:33)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4877:21
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <failure>Error: Can&apos;t resolve all parameters for ProductsComponent: (?).
+    at syntaxError (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\parse_util.ts:184:17)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getDependenciesMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:1011:27)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver._getTypeMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:890:20)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.getNonNormalizedDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:388:18)
+    at CompileMetadataResolver.Object.&lt;anonymous&gt;.CompileMetadataResolver.loadDirectiveMetadata (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\metadata_resolver.ts:239:41)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:138:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:136:65
+    at Array.forEach (&lt;anonymous&gt;)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._loadModules (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:133:71)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler._compileModuleAndAllComponents (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:118:32)
+    at JitCompiler.Object.&lt;anonymous&gt;.JitCompiler.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\compiler\src\jit\compiler.ts:66:38)
+    at CompilerImpl.Object.&lt;anonymous&gt;.CompilerImpl.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\src\compiler_factory.ts:61:35)
+    at TestingCompilerImpl.Object.&lt;anonymous&gt;.TestingCompilerImpl.compileModuleAndAllComponentsSync (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\platform-browser-dynamic\testing\src\compiler_factory.ts:54:27)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine._initIfNeeded (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:424:28)
+    at TestBedViewEngine.Object.&lt;anonymous&gt;.TestBedViewEngine.inject (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:510:10)
+    at Function.Object.&lt;anonymous&gt;.TestBedViewEngine.inject (C:\Users\qgv467\Desktop\tripico\rekrutacja\packages\core\testing\src\test_bed.ts:233:36)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\projects\spectator\src\lib\spectator-routing\create-factory.ts:71:52
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\src\main\components\products\products.component.spec.ts:42:17
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at Object.asyncJestLifecycle (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:58:37)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <failure>TypeError: Cannot read property &apos;queryAll&apos; of undefined
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\src\main\components\products\products.component.spec.ts:51:22
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:409:30)
+    at ProxyZoneSpec.Object.&lt;anonymous&gt;.ProxyZoneSpec.onInvoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:3830:43)
+    at _ZoneDelegate.Object.&lt;anonymous&gt;._ZoneDelegate.invoke (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:408:56)
+    at Zone.Object.&lt;anonymous&gt;.Zone.run (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:169:47)
+    at Object.wrappedFunc (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\zone.js\bundles\zone-testing-bundle.umd.js:4331:34)
+    at Object.asyncJestTest (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Users\qgv467\Desktop\tripico\rekrutacja\tripApp\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
