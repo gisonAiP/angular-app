@@ -31,3 +31,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Go to `tests` catalog -> `cd tests` and run `npm run open`
 To be sure that app and mock server is running!!
+
+## Mobile version
+![image](https://user-images.githubusercontent.com/17403483/175553979-f3e6698b-d157-430f-aa81-587c92fb7676.png)
+
+## Desktop version
+![image](https://user-images.githubusercontent.com/17403483/175554112-7f630efd-437c-4804-bd48-92272e09bb39.png)
+
+
