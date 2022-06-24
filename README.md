@@ -32,6 +32,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Go to `tests` catalog -> `cd tests` and run `npm run open`
 To be sure that app and mock server is running!!
 
+## Cypress tests
+![image](https://user-images.githubusercontent.com/17403483/175554421-e00a8247-b0f6-4202-8b31-1f6970bc668a.png)
+
 ## Mobile version
 ![image](https://user-images.githubusercontent.com/17403483/175553979-f3e6698b-d157-430f-aa81-587c92fb7676.png)
 
